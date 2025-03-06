@@ -1,0 +1,59 @@
+#lead-form{
+    min-height: 90vh;
+    padding: 2rem 0;
+    background-image: url('../images/form-bg.svg');
+    background-size: 100%;
+    background-position: contain;
+    background-repeat: no-repeat;
+}
+#leadForm {
+    padding: 1rem;
+
+}
+
+
+.submit_btn{
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: #fff;
+    border: 1px solid #000;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.submit_btn:hover{
+    color: #fff;
+}
+
+#lead-list{
+    padding: 2rem 0;
+    background-color: #e6f2f9;
+    min-height: 90vh;
+}
+
+#dashboard{
+    min-height: 90vh;
+    padding: 2rem 0;
+    background-color: #e6f2f9;
+}
+
+#leadChart{
+    width: 300px;
+}
+
+#lead-details{
+    min-height: 90vh;
+    padding: 2rem 0;
+    background-color: #e6f2f9;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    #lead-form{
+        background-repeat: repeat;
+    }
+    
+}
